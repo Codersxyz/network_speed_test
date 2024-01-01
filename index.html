@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+
+<html>
+    <head>
+        <title>Speed Test</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        
+        <div class="container">
+            <nav>
+                <h1>
+                    NetoSpeed
+                </h1>
+            </nav>
+            <div class="gauge">
+                <div class="mask">
+                    <div class="needle"></div>
+                </div>
+                <div class="labels">
+                    <span class="points" style="--i:0">0</span>
+                    <span class="points" style="--i:1">10</span>
+                    <span class="points" style="--i:2">20</span>
+                    <span class="points" style="--i:3">30</span>
+                    <span class="points" style="--i:4">40</span>
+                    <span class="points" style="--i:5">50</span>
+                    <span class="points" style="--i:6">60</span>
+                    <span class="points" style="--i:7">70</span>
+                    <span class="points" style="--i:8">80</span>
+                    <span class="points" style="--i:9">90</span>
+                    <span class="points" style="--i:10">100</span>
+                </div>
+                
+                <span class="speed">
+                    0
+                </span>
+                <span class="unit">
+                    Mbps
+                </span>
+    
+            </div>
+
+            <div class="test">
+                <button id="testbutton" onclick="speedtest()">SPEED TEST</button>
+            </div>
+
+        </div>   
+        
+    </body>
+
+
+</html>
